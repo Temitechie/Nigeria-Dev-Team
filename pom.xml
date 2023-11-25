@@ -26,6 +26,23 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
 	
+	<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Landmark Technologies Releases Nexus Repository</name>
+	      <url>http://35.174.19.3:8081/repository/amazon-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Landmark Technologies Snapshot Nexus Repository </name>
+	      <url>http://54.204.70.211:4000/repository/ebay-bts/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
+
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
